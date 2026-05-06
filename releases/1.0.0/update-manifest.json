@@ -1,0 +1,11 @@
+{
+  "latest_version": "1.0.0",
+  "required": false,
+  "min_supported_version": "1.0.0",
+  "platform": "windows",
+  "download_url": "https://github.com/Officialsparxx/LinkPilot/releases/download/v1.0.0/LinkPilot.exe",
+  "sha256": "09b15ff38e63678f708fbd95f2996fce0f8583b20421308da212e13e8ae9bef6",
+  "notes": "\ufeff# LinkPilot v1.0.0 Release Notes\n\nRelease date: 2026-05-06\n\n## Highlights\n- Launch/auth/trial/admin backend routes and launch-session model updates are integrated in the current build.\n- Full local QA regression suite is passing before packaging (`72/72`).\n- Backend worker TypeScript typecheck is passing.\n- Windows one-file executable is built with Nuitka.\n\n## Build and Validation Summary\n- Build command:\n  - `py scripts/build.py --nuitka-only --output-dir releases/1.0.0`\n- QA command:\n  - `py qa_lab/run_suite.py` (`72/72` passed)\n- Backend typecheck command:\n  - `cd backend/worker && npm run typecheck`\n\n## Security and Update Artifacts\n- SHA-256:\n  - `09b15ff38e63678f708fbd95f2996fce0f8583b20421308da212e13e8ae9bef6`\n- Included artifacts:\n  - `release_hashes.json`\n  - `LinkPilot.exe.sha256`\n  - `update-manifest.json`\n\n## Notes\n- Nuitka reported Python 3.14 as experimental in this toolchain version.\n- Nuitka warned that onefile compression is not enabled unless `zstandard` is installed.",
+  "signature": "",
+  "signature_alg": ""
+}
