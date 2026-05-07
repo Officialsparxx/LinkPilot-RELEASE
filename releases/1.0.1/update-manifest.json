@@ -1,0 +1,11 @@
+{
+  "latest_version": "1.0.1",
+  "required": false,
+  "min_supported_version": "1.0.0",
+  "platform": "windows",
+  "download_url": "https://media.githubusercontent.com/media/Officialsparxx/LinkPilot-RELEASE/main/releases/1.0.1/LinkPilot.exe",
+  "sha256": "a150fd48f588c4e91aa2a2739bf57bbe2340d1298cc41129e2d9074c26155d80",
+  "notes": "\ufeff# LinkPilot v1.0.1 Release Notes\n\nRelease date: 2026-05-07\n\n## Summary\n- Patch release after 1.0.0 with small improvements and hardening updates.\n- Launch/update release wiring retained and verified.\n\n## Validation\n- Backend worker typecheck passed.\n- Local QA suite passed (`80/80`).\n- Windows onefile build completed with Nuitka.\n\n## Artifact Integrity\n- SHA-256 (`LinkPilot.exe`):\n  - `a150fd48f588c4e91aa2a2739bf57bbe2340d1298cc41129e2d9074c26155d80`\n\n## Notes\n- Build used Nuitka on Python 3.14; Nuitka currently flags 3.14 as experimental.\n- Onefile compression warning remains unless `zstandard` is installed.",
+  "signature": "",
+  "signature_alg": ""
+}
