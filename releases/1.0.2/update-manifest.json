@@ -4,8 +4,8 @@
   "min_supported_version": "1.0.0",
   "platform": "windows",
   "download_url": "https://media.githubusercontent.com/media/Officialsparxx/LinkPilot-RELEASE/main/releases/1.0.2/LinkPilot.exe",
-  "sha256": "28f36b4eca874b6d5030c942abb5d2a62c9311cd2dc44e275fbc5b7d8c4e155d",
-  "notes": "# LinkPilot v1.0.2 Release Notes\n\nRelease date: 2026-05-07\n\n## Summary\n- Patch release after 1.0.1 with deployment and relay hardening updates.\n- TCG monitor relay path stabilized for production backend routing.\n- Launch backend defaults updated to use `https://api.linkpilot.pro`.\n\n## Validation\n- Backend worker typecheck passed.\n- Source polling regression tests passed.\n- Windows onefile build completed with Nuitka.\n\n## Artifact Integrity\n- SHA-256 (`LinkPilot.exe`):\n  - `28f36b4eca874b6d5030c942abb5d2a62c9311cd2dc44e275fbc5b7d8c4e155d`\n\n## Notes\n- Built with Nuitka onefile on Python 3.14 (Nuitka currently marks 3.14 as experimental).\n- Onefile compression warning remains unless `zstandard` is installed.",
+  "sha256": "d2041d92b33d5403a7dbe90f6529c61ff0f3f3d661deb778270af0e9523df738",
+  "notes": "# LinkPilot v1.0.2 Release Notes\n\nRelease date: 2026-05-07\n\n## Summary\n- Patch release after 1.0.1 with deployment and relay hardening updates.\n- TCG monitor relay path stabilized for production backend routing.\n- Launch backend defaults updated to use `https://api.linkpilot.pro`.\n- Reduced notification noise by keeping `DEBUG` lines out of user-facing Live Activity by default.\n\n## Validation\n- Backend worker typecheck passed.\n- Source polling regression tests passed.\n- Windows onefile build completed with Nuitka.\n\n## Artifact Integrity\n- SHA-256 (`LinkPilot.exe`):\n  - `d2041d92b33d5403a7dbe90f6529c61ff0f3f3d661deb778270af0e9523df738`\n\n## Notes\n- Built with Nuitka onefile on Python 3.14 (Nuitka currently marks 3.14 as experimental).\n- Onefile compression warning remains unless `zstandard` is installed.",
   "signature": "",
   "signature_alg": ""
 }

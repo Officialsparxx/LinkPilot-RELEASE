@@ -6,6 +6,7 @@ Release date: 2026-05-07
 - Patch release after 1.0.1 with deployment and relay hardening updates.
 - TCG monitor relay path stabilized for production backend routing.
 - Launch backend defaults updated to use `https://api.linkpilot.pro`.
+- Reduced notification noise by keeping `DEBUG` lines out of user-facing Live Activity by default.
 
 ## Validation
 - Backend worker typecheck passed.
@@ -14,7 +15,7 @@ Release date: 2026-05-07
 
 ## Artifact Integrity
 - SHA-256 (`LinkPilot.exe`):
-  - `28f36b4eca874b6d5030c942abb5d2a62c9311cd2dc44e275fbc5b7d8c4e155d`
+  - `d2041d92b33d5403a7dbe90f6529c61ff0f3f3d661deb778270af0e9523df738`
 
 ## Notes
 - Built with Nuitka onefile on Python 3.14 (Nuitka currently marks 3.14 as experimental).
