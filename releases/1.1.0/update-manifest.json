@@ -1,0 +1,11 @@
+{
+  "latest_version": "1.1.0",
+  "required": false,
+  "min_supported_version": "1.0.0",
+  "platform": "windows",
+  "download_url": "https://media.githubusercontent.com/media/Officialsparxx/LinkPilot-RELEASE/main/releases/1.1.0/LinkPilot.exe",
+  "sha256": "9ff7d678f1cb4b703e8805064a1d1b705c43dd995c5fdf8fb04529227eeaee38",
+  "notes": "\ufeff# LinkPilot v1.1.0 Release Notes\n\nRelease date: 2026-05-14\n\n## Summary\n- Feature release with hardened launch/auth runtime and expanded readiness safeguards.\n- Added navigation orchestration paths and source decision improvements for Target/Walmart/TCG workflows.\n- Improved Discord account/API integration and monitor profile alignment for live runs.\n- Backend/admin surface expanded and documented for account controls and safer operations.\n\n## Validation\n- Local regression suite passed: `py qa_lab\\run_suite.py` (154 tests).\n- Windows onefile build completed with Nuitka.\n\n## Artifact Integrity\n- SHA-256 (`LinkPilot.exe`):\n  - `$sha`\n\n## Notes\n- Built with Nuitka onefile on Python 3.14 (Nuitka currently marks 3.14 support as experimental).\n- Onefile compression warning remains unless `zstandard` is installed.",
+  "signature": "",
+  "signature_alg": ""
+}
