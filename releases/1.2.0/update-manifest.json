@@ -1,0 +1,11 @@
+{
+  "latest_version": "1.2.0",
+  "required": false,
+  "min_supported_version": "1.0.0",
+  "platform": "windows",
+  "download_url": "https://media.githubusercontent.com/media/Officialsparxx/LinkPilot-RELEASE/main/releases/1.2.0/LinkPilot.exe",
+  "sha256": "d29ec0dc7cda419cc92537a66ca981a1a28589028f0bcdd414428c5ade3a3dee",
+  "notes": "# LinkPilot v1.2.0 Release Notes\n\nRelease date: 2026-05-15\n\n## Summary\n- Feature release focused on launch-readiness, source reliability, and account-session stability.\n- Added/expanded RestockR support (source + account workflow) with safer auto-open handling.\n- Added Discord account polling toggle control for account-mode listener behavior.\n- Hardened account autofill so saved credentials can submit sign-in and report post-submit login state.\n- Added browser window recovery so headed login/preview windows are brought back on-screen when misplaced.\n\n## Validation\n- Full local regression suite passed: `py qa_lab\\run_suite.py` (169 tests).\n- Release build completed with Nuitka onefile.\n\n## Artifact Integrity\n- SHA-256 (`LinkPilot.exe`):\n  - `d29ec0dc7cda419cc92537a66ca981a1a28589028f0bcdd414428c5ade3a3dee`\n\n## Notes\n- Built with Nuitka onefile on Python 3.14 (Nuitka currently marks 3.14 support as experimental).\n- Onefile compression warning remains unless `zstandard` is installed.",
+  "signature": "",
+  "signature_alg": ""
+}
