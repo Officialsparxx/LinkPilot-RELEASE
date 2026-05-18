@@ -9,5 +9,6 @@ This repository stores LinkPilot packaged release artifacts.
 - `1.1.0` - feature release package.
 - `1.2.0` - feature release package.
 - `1.2.1` - patch release package with bundled Playwright Chromium and Chromium Headless Shell runtime.
+- `1.3.0` - feature release package with backend-backed device trial mode.
 
 Artifacts are under `releases/<version>/`.
