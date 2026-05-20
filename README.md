@@ -11,5 +11,6 @@ This repository stores LinkPilot packaged release artifacts.
 - `1.2.1` - patch release package with bundled Playwright Chromium and Chromium Headless Shell runtime.
 - `1.3.0` - feature release package with backend-backed device trial mode.
 - `1.4.0` - feature release package with review-first source intake, safer startup defaults, operational header status, and Walmart monitor hardening.
+- `1.4.1` - patch release package with the successful Target live-checkout hardening path.
 
 Artifacts are under `releases/<version>/`.
