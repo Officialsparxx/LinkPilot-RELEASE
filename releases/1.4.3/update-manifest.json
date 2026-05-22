@@ -1,0 +1,11 @@
+{
+  "latest_version": "1.4.3",
+  "required": false,
+  "min_supported_version": "1.0.0",
+  "platform": "windows",
+  "download_url": "https://media.githubusercontent.com/media/Officialsparxx/LinkPilot-RELEASE/main/releases/1.4.3/LinkPilot.exe",
+  "sha256": "dca21100d29b74260f40e20d57b89580ad25e8b08c2cb4480a383bdb60ce6f89",
+  "notes": "# LinkPilot 1.4.3\n\nPatch hotfix for the public 1.4.2 build.\n\n- Fixed the Accounts tab **Open Persistent Login** action failing with Playwright's sync-API-inside-asyncio-loop error in packaged builds.\n- Persistent login browser automation now runs on a dedicated Playwright owner thread while keeping the same UI workflow for login priming, focus, autofill, and profile reuse.\n- Preserves the 1.4.2 release packaging hardening: bundled Playwright Chromium, Chromium Headless Shell, default plugins, logo assets, and helper scripts.\n\nUsers preparing for Target/Walmart/Sam's drops should update from 1.4.2 to 1.4.3 before opening account persistent-login profiles.",
+  "signature": "",
+  "signature_alg": ""
+}

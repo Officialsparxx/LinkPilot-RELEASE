@@ -13,5 +13,6 @@ This repository stores LinkPilot packaged release artifacts.
 - `1.4.0` - feature release package with review-first source intake, safer startup defaults, operational header status, and Walmart monitor hardening.
 - `1.4.1` - patch release package with the successful Target live-checkout hardening path.
 - `1.4.2` - patch release package with bundled default plugins/assets/helpers and packaged-exe subprocess re-entry fixes.
+- `1.4.3` - patch hotfix for packaged Accounts tab persistent login browser launch failures.
 
 Artifacts are under `releases/<version>/`.
